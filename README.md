@@ -22,8 +22,8 @@ To set up the project environment, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/tomato-disease-detection.git
-   cd tomato-disease-detection
+   git clone https://github.com/AbdulazizAnorboev/Tomato-Disease-Detection
+   cd Tomato-Disease-Detection
    ```
 
 2. Install the required dependencies:
@@ -67,38 +67,43 @@ Below are some sample results from the model's inference on test images:
 
 ### Sample Detection Results
 
-- **Anthracnose**<br/>
+- **Infected Tomato**
   <img src="results/val_batch0_pred.jpg" height="500px" width="100%"
         style="object-fit:contain"
     />
-- **Healthy Tomato** <br/>
-
+- **Healthy Tomato**
   <img src="results/val_batch1_pred.jpg" height="500px" width="100%"
        style="object-fit:contain"
    />
-
-Add more examples with the appropriate image paths.
 
 ## File Structure
 
 The repository contains the following structure:
 
 ```
-├── data/
-│   ├── images/
-│   ├── labels/
-│   └── data.yaml
-├── runs/
-│   └── train/
-│       └── exp/
-│           ├── best.pt
-│           └── last.pt
-├── scripts/
-│   ├── train.py
-│   ├── detect.py
-│   └── val.py
+├── datasents/
+│   ├── datasamples/
+│   ├── data.yaml
+│   ├── README.dataset.txt
+│   └── README.roboflow.txt
+├── models/
+│   ├── hub/
+│   ├── segment/
+│   ├── __init__.py
+│   ├── experimental.py
+│   ├── tf.py
+│   ├── yolo.py
+│   ├── yolo51.yaml
+│   ├── yolo5m.yaml
+│   ├── yolo5n.yaml
+│   ├── yolo5s.yaml
+│   └── yolo5x.yaml
+├── notebooks/
+│   └── detection_tomato.ipynb
+├── results
 ├── requirements.txt
 └── README.md
+└── LICENSE
 ```
 
 ## Contributing
@@ -108,14 +113,6 @@ Contributions are welcome! If you have suggestions or find bugs, feel free to fo
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions, please reach out:
-
-- **Name**: Your Name
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [YourUsername](https://github.com/yourusername)
 
 ## Acknowledgements
 
