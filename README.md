@@ -67,24 +67,15 @@ Below are some sample results from the model's inference on test images:
 
 ### Sample Detection Results
 
-  <div style="display:flex; align-items: center; gap: 10px">
-   <div style="background: red">
-  - **Anthracnose**<br/>
-    <div >
-      <img src="results/val_batch0_pred.jpg" height="500px" width="100%"
-          style="object-fit:contain"
-      />
-    </div>
-   </div>
-   <div>
-   - **Healthy Tomato** <br/>
-    <div>
-      <img src="results/val_batch1_pred.jpg" height="500px" width="100%"
-          style="object-fit:contain"
-      />
-    </div>
-   </div>
-</div>
+- **Anthracnose**<br/>
+  <img src="results/val_batch0_pred.jpg" height="500px" width="100%"
+        style="object-fit:contain"
+    />
+- **Healthy Tomato** <br/>
+
+  <img src="results/val_batch1_pred.jpg" height="500px" width="100%"
+       style="object-fit:contain"
+   />
 
 Add more examples with the appropriate image paths.
 
