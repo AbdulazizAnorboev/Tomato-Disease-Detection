@@ -1,0 +1,16 @@
+names:
+- Anthracnose
+- Bacterial_Spot
+- Blossom end rot
+- Healthy Tomato
+- Spotted wilt Virus
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: tomato-fruit-disease-detection
+  url: https://universe.roboflow.com/tomato-disease-detection-fcgsf/tomato-fruit-disease-detection/dataset/3
+  version: 3
+  workspace: tomato-disease-detection-fcgsf
+test: ../test/images
+train: train/images
+val: valid/images
