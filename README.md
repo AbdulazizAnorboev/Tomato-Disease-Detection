@@ -68,7 +68,7 @@ Below are some sample results from the model's inference on test images:
 ### Sample Detection Results
 
   <div style="display:flex; align-items: center; gap: 10px">
-   <div >
+   <div style="background: red">
   - **Anthracnose**<br/>
     <div >
       <img src="results/val_batch0_pred.jpg" height="500px" width="100%"
