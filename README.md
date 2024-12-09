@@ -70,7 +70,6 @@ Below are some sample results from the model's inference on test images:
   <div style="display:flex; align-items: center; gap: 10px">
    <div >
   - **Anthracnose**<br/>
-    ![Anthracnose Detection]
     <div >
       <img src="results/val_batch0_pred.jpg" height="500px" width="100%"
           style="object-fit:contain"
@@ -79,7 +78,6 @@ Below are some sample results from the model's inference on test images:
    </div>
    <div>
    - **Healthy Tomato** <br/>
-    ![Healthy Tomato Detection]
     <div>
       <img src="results/val_batch1_pred.jpg" height="500px" width="100%"
           style="object-fit:contain"
